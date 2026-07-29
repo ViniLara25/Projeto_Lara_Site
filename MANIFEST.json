@@ -1,0 +1,93 @@
+{
+  "package": "lara_landing_site",
+  "files": {
+    "README.md": {
+      "bytes": 2216,
+      "sha256": "27bd7e2f88caea2a5b78ff8b1937a1349e041537275e5ac94e61178d480581d2"
+    },
+    "assets/css/styles.css": {
+      "bytes": 22908,
+      "sha256": "8a94b718af2565f9b0ac4109d88c2264fd440d4466d9df4362dc0284ff41fad2"
+    },
+    "assets/images/favicon.png": {
+      "bytes": 8708,
+      "sha256": "00624a7f66c8b81b92e7e073e1f61569df0898c91643d3d29309f30d847c5783"
+    },
+    "assets/images/icon-192.png": {
+      "bytes": 54921,
+      "sha256": "83691dce39422ec8eb7567a23323563493f882091db6475f1b5073a144420e37"
+    },
+    "assets/images/icon-512.png": {
+      "bytes": 266579,
+      "sha256": "1e62a82d3a3fc0c5f3bbb06b4fdec0d640eaf1efda50eafb0b57f4dea8a6ed04"
+    },
+    "assets/images/lara-chat.webp": {
+      "bytes": 67936,
+      "sha256": "c80dba38b160a3b886f7519861e121bf5f14124d8450fa020adbb6164c878398"
+    },
+    "assets/images/lara-logo.webp": {
+      "bytes": 35250,
+      "sha256": "bc6c85d4cf7864ef58926aa8c4fa25fadc66f76342294639d8340175825b8af2"
+    },
+    "assets/images/lara-menu.webp": {
+      "bytes": 39716,
+      "sha256": "9ec7fbf6747a487ee242a5b98991cd3c9fdd8dd0c536154118be147e35d42dd3"
+    },
+    "assets/images/og-lara.webp": {
+      "bytes": 35918,
+      "sha256": "e644ba1cd85a2cec32f7b41e9e03ff8d744447eb2c4c5898041509aeebf6e305"
+    },
+    "assets/images/poster-alarm.webp": {
+      "bytes": 9602,
+      "sha256": "7fdfb00248bccc50c9d87bb9d76bb48e7679a492b4d83a9d157b12887cd91285"
+    },
+    "assets/images/poster-spotify.webp": {
+      "bytes": 7428,
+      "sha256": "8785bca3b3ed0152c6111fc674296109b85debe3724e6437904ef4fc8398cbb0"
+    },
+    "assets/images/poster-timer.webp": {
+      "bytes": 8194,
+      "sha256": "ac1cc4e00b3ed6ad6c2670eeced3095d83ecc52bb682f3a68ded173ea0740a20"
+    },
+    "assets/images/poster-uber.webp": {
+      "bytes": 7490,
+      "sha256": "fff36b2a03924a4115aab8a7ec8bad5fa1531d135bd93c87436596f5dabdceae"
+    },
+    "assets/js/main.js": {
+      "bytes": 6018,
+      "sha256": "3696800b9801b1d597fe37d99c29c96145a72bbac729aaa24f31eec6c16dde7a"
+    },
+    "assets/videos/demo-alarm.mp4": {
+      "bytes": 109333,
+      "sha256": "287195abfa92285afaf6819caee4d31d13ff826c6ec46743f2e551b3e60273e9"
+    },
+    "assets/videos/demo-spotify.mp4": {
+      "bytes": 83694,
+      "sha256": "ef08eceb9418afef7a3e71d2d9959b63ac3493365255aa2e93d0b1ff65521613"
+    },
+    "assets/videos/demo-timer.mp4": {
+      "bytes": 90254,
+      "sha256": "d49fb8d08b18fe5154b3ed0c0f0b6afe3ad1b15c0d49c6e0f7bd163ddead1bd2"
+    },
+    "assets/videos/demo-uber.mp4": {
+      "bytes": 89761,
+      "sha256": "1504078405977a07dc73e030863242227ad60514ceb694b08d6b24e0735129da"
+    },
+    "index.html": {
+      "bytes": 18333,
+      "sha256": "67c8f31acf88e4dc7e6853e903e286e6531fda3cb042e274b09e11c298d4e178"
+    },
+    "robots.txt": {
+      "bytes": 72,
+      "sha256": "0329c1b29a4c72f9d69f4e1cb53004dfb28a38cab5f2e72af1c6c834f0d2d2ad"
+    },
+    "site.webmanifest": {
+      "bytes": 481,
+      "sha256": "6e95dff576f38d5fa350f9661561c45baccaa85db20d91a46bdcdb675b7738ed"
+    },
+    "sitemap.xml": {
+      "bytes": 235,
+      "sha256": "96d80fb6fe67826e22f4c42b1beb4fb229b3e251ebdc11d6d3fcc4cc264db431"
+    }
+  }
+}
