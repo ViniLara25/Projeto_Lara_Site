@@ -1,40 +1,8 @@
-<<<<<<< HEAD
-# 🧠 Projeto Lara - Assistente de IA Multi-Agente
-
-A **Lara** não é apenas um chatbot; é um ecossistema de inteligência artificial focado em **lógica de processos, otimização de fluxos e resiliência**. Construída em Python, sua arquitetura foi desenhada para resolver o problema crônico das alucinações de IA através de validação cruzada, execução segura de código e pesquisa web com filtragem semântica.
-
-## ✨ Arquitetura e Diferenciais
-
-### 🔍 Motor de Pesquisa Web Híbrido
-- **Quality Gate Multilíngue:** Suporte otimizado para scripts complexos (CJK, Árabe, Cirílico), ajustando dinamicamente os pesos de relevância.
-- **Fallback em Camadas:** Em caso de falha do provedor principal, o sistema trás os resultados por um Reranker Semântico e similaridade de Cosseno (Embeddings) antes de entregar ao LLM.
-
-### ⚖️ Motores de Consenso (Fact-Checking Nativo)
-- **Finanças e Criptomoedas:** Busca o valor exato em APIs financeiras e cruza simultaneamente com as últimas notícias da atuais. Um julgador integrado para explicar o motivo de quedas ou altas sem alucinar números.
-- **Esportes:** Extrai dados estruturados paralelamente à leitura de notícias web. A IA é estritamente instruída a priorizar os dados da API para status e placar, usando a web apenas para contexto adicional.
-
-### 💻 Code Sandbox Seguro
-- **Isolamento:** A IA pode escrever, validar e executar scripts (Python, JS, Bash) em nuvem.
-- **Injeção Dinâmica via AST:** O sistema lê a árvore sintática abstrata (AST) do código gerado, detecta as dependências (imports) reais do script e instala os pacotes em tempo de execução de forma segura.
-
-### 🎨 Criação e Edição Multi-Modal
-- **Geração de Imagens:** Integração com excelente gerador de imagens, ela cria imagens com máxima qualidade.
-- **Edição Avançada (Inpainting):** Detecção inteligente de alvo usando `CLIPSeg` acionado sob demanda para modificar detalhes pontuais de imagens com precisão matemática.
-
-### 🧠 Memória Persistente e RAG
-- Indexação vetorial para armazenamento de conversas e sumarização de arquivos de código da base do usuário, garantindo contexto infinito.
-
-### 📱 Integração IoT
-- Conexão direta com **Aplicativos** para total automação de aplicativos de forma segura.
-
-## 🛠️ Stack Tecnológico
-- **Linguagem Principal:** Python 3.x
-- **Infraestrutura:** [Modal](https://modal.com/)
-- **Orquestração de IA:** Groq, SiliconFlow, DeepSeek
-- **Banco de Dados / Cache:** Pinecone (Vector DB), Redis (Cache de consultas rápidas)
-- **Segurança:** Bloqueio de rede nativo (SSRF Protection) e injeção de dependências em runtime, sistema de `FileLock` para I/O atômico.
-=======
 # Landing page da Lara IA
+
+Site institucional da **Lara**, assistente de IA para pesquisa, criação de
+imagens, programação e ações no Android — pesquisas, imagens, programação,
+voz e ações do dia a dia em uma experiência premium, mobile-first.
 
 ## Conteúdo
 
@@ -82,26 +50,27 @@ Alternativas seguras:
 2. Servir a página em `/sobre` ou `/lara`.
 3. Mover o chat para `/app` e usar a landing page na raiz.
 
-## SEO antes de publicar
+## SEO
 
-Substitua `https://SEU-DOMINIO.com.br` em:
-
-- `robots.txt`
-- `sitemap.xml`
-
-Também é recomendado trocar os caminhos de `og:image` e do JSON-LD por URLs
-absolutas do domínio público.
+O domínio de publicação (`alara.ia.br`, definido em `CNAME`) já está
+configurado em `robots.txt`, `sitemap.xml`, no `canonical`, no `og:image`
+e no JSON-LD. Se o domínio final mudar, atualize esses mesmos pontos.
 
 ## Vídeos
 
-Os vídeos são demonstrações ilustrativas produzidas a partir da identidade
-visual e da interface fornecida. Não são gravações reais dos aplicativos citados
-e não indicam parceria com Uber ou Spotify.
+Os vídeos da seção "Demonstrações" são ilustrativos, produzidos a partir da
+identidade visual e da interface fornecida. Não são gravações reais dos
+aplicativos citados e não indicam parceria com Uber ou Spotify. A seção
+"Capturas reais de conversas com a Lara" usa, por outro lado, prints reais
+tirados diretamente do aparelho.
 
 ## Privacidade
 
-A captura do menu lateral foi anonimizada. Nome, e-mail e foto pessoal não
-foram incluídos nos arquivos públicos.
+A captura do menu lateral (`lara-menu.webp`) foi anonimizada. Nome, e-mail e
+foto pessoal não foram incluídos nos arquivos públicos. O mesmo cuidado foi
+aplicado ao prints reais adicionados em `real-uber-app.webp`, que foi
+recortado para remover o endereço de partida exibido no app de transporte —
+revise antes de publicar caso o print original mude.
 
 ## Performance e acessibilidade
 
@@ -113,4 +82,16 @@ foram incluídos nos arquivos públicos.
 - Imagens fora da primeira tela usam `loading="lazy"`.
 - Navegação por teclado e link para pular ao conteúdo.
 - HTML semântico, metadados Open Graph e JSON-LD.
->>>>>>> de6f9a2 (Primeiro commit)
+
+## Changelog desta revisão
+
+- Corrigido o cálculo de altura de `.hero-visual` e `.interface-gallery`:
+  os cartões de telefone/print rotacionados estouravam a caixa em quase
+  toda a faixa de celulares comuns (375–480px) e também no desktop —
+  causa raiz do efeito de "imagens grandes e fora de proporção".
+- `demo-alarm.mp4` foi cortado: o clipe original tinha um balão de
+  confirmação cujo texto vazava da borda arredondada (defeito já presente
+  nos pixels do vídeo gerado, não no CSS). O vídeo agora termina antes
+  desse trecho.
+- Logo, favicon e ícones do PWA atualizados para a nova identidade visual.
+- Nova seção com capturas reais do app, sem edição.

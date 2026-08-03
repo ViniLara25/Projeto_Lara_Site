@@ -365,7 +365,7 @@ svg {
 
 .hero-visual {
   position: relative;
-  min-height: 610px;
+  min-height: clamp(540px, 12px + 164.7vw, 727px);
   perspective: 1200px;
 }
 
@@ -546,10 +546,55 @@ svg {
 .video-shell,
 .screen-card,
 .faq-list details,
-.cta-panel {
+.cta-panel,
+.proof-card {
   border: 1px solid var(--border);
   background: linear-gradient(145deg, rgba(255,255,255,.045), rgba(255,255,255,.015));
   box-shadow: inset 0 1px 0 rgba(255,255,255,.035);
+}
+
+.proof-row {
+  display: flex;
+  gap: 16px;
+  margin: 0 -16px;
+  padding: 4px 16px 14px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.proof-row::-webkit-scrollbar { display: none; }
+
+.proof-card {
+  flex: 0 0 78%;
+  overflow: hidden;
+  padding: 14px;
+  border-radius: var(--radius);
+  scroll-snap-align: start;
+}
+
+.proof-shot {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: #05070d;
+}
+
+.proof-shot img { width: 100%; height: auto; }
+
+.proof-copy { padding: 18px 4px 4px; }
+
+.proof-copy h3 {
+  margin: 9px 0 8px;
+  font-size: 1.16rem;
+  line-height: 1.2;
+}
+
+.proof-copy p {
+  margin: 0;
+  color: var(--muted-strong);
+  font-size: .88rem;
 }
 
 .feature-card {
@@ -707,7 +752,15 @@ svg {
   font-size: .64rem;
 }
 
-.video-topline span { color: var(--muted); }
+.video-topline span,
+.video-topline strong {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.video-topline span { flex: 0 1 auto; min-width: 0; color: var(--muted); }
+.video-topline strong { flex: 0 1 auto; min-width: 0; }
 
 .video-topline i {
   display: inline-block;
@@ -843,7 +896,7 @@ svg {
 
 .interface-gallery {
   position: relative;
-  min-height: 600px;
+  min-height: clamp(540px, 74px + 145.2vw, 724px);
 }
 
 .screen-card {
@@ -979,10 +1032,16 @@ svg {
   .journey-card:last-child { grid-column: 1 / -1; }
 }
 
-@media (min-width: 760px) {
-  .section { padding: 112px 0; }
-  .container { width: min(100% - 56px, var(--container)); }
-  .capability-grid { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 768px) {
+    .sidebar {
+        position: fixed !important;
+        inset: 0 auto 0 0 !important;
+        width: min(78vw, 300px) !important;
+        min-width: min(78vw, 300px) !important;
+        flex-basis: min(78vw, 300px) !important;
+        transform: translateX(-100%) !important;
+        box-shadow: 8px 0 28px rgba(0, 0, 0, 0.48) !important;
+    }
 
   .feature-wide {
     grid-column: 1 / -1;
@@ -1041,12 +1100,22 @@ svg {
     gap: 58px;
   }
 
-  .hero-visual { min-height: 660px; }
-  .phone-primary { right: 4%; width: 348px; }
-  .phone-secondary { left: 1%; width: 275px; }
+  .hero-visual { min-height: 682px; }
+  .phone-primary { right: 4%; width: 300px; }
+  .phone-secondary { left: 1%; width: 237px; }
   .command-card { left: -2%; }
 
   .capability-grid { grid-template-columns: repeat(4, 1fr); }
+
+  .proof-row {
+    margin: 0;
+    padding: 4px 0 6px;
+    overflow-x: visible;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .proof-card { flex: initial; }
 
   .feature-wide {
     grid-column: span 2;
@@ -1071,8 +1140,8 @@ svg {
     gap: 82px;
   }
 
-  .interface-gallery { min-height: 720px; }
-  .screen-card { width: 340px; }
+  .interface-gallery { min-height: 740px; }
+  .screen-card { width: 300px; }
 
   .faq-grid {
     grid-template-columns: .75fr 1.25fr;

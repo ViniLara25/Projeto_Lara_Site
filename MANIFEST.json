@@ -2,40 +2,40 @@
   "package": "lara_landing_site",
   "files": {
     "README.md": {
-      "bytes": 2216,
-      "sha256": "27bd7e2f88caea2a5b78ff8b1937a1349e041537275e5ac94e61178d480581d2"
+      "bytes": 3521,
+      "sha256": "6c491e4834de125e0d3913527f2270dbb0a7842fbb1c8bc546d90692b8ecf63c"
     },
     "assets/css/styles.css": {
-      "bytes": 22908,
-      "sha256": "8a94b718af2565f9b0ac4109d88c2264fd440d4466d9df4362dc0284ff41fad2"
+      "bytes": 24121,
+      "sha256": "fd0a9fc40beb4fc700963924c0b412dab387936e509f407aaf35661436cbb6ab"
     },
     "assets/images/favicon.png": {
-      "bytes": 8708,
-      "sha256": "00624a7f66c8b81b92e7e073e1f61569df0898c91643d3d29309f30d847c5783"
+      "bytes": 8330,
+      "sha256": "4b696ad94ce914f6149ea9d6359310e1dc6e0664f8f39242811fe70ef32de12a"
     },
     "assets/images/icon-192.png": {
-      "bytes": 54921,
-      "sha256": "83691dce39422ec8eb7567a23323563493f882091db6475f1b5073a144420e37"
+      "bytes": 57067,
+      "sha256": "5fe1dd052abd504b3af279297f7252c93d1307c6e3b6fcde05ca05eb0b96ca60"
     },
     "assets/images/icon-512.png": {
-      "bytes": 266579,
-      "sha256": "1e62a82d3a3fc0c5f3bbb06b4fdec0d640eaf1efda50eafb0b57f4dea8a6ed04"
+      "bytes": 299062,
+      "sha256": "b661ec402ace5c2a291c6863cbb89cedd511802577fa18bba54da95154b12a77"
     },
     "assets/images/lara-chat.webp": {
       "bytes": 67936,
       "sha256": "c80dba38b160a3b886f7519861e121bf5f14124d8450fa020adbb6164c878398"
     },
     "assets/images/lara-logo.webp": {
-      "bytes": 35250,
-      "sha256": "bc6c85d4cf7864ef58926aa8c4fa25fadc66f76342294639d8340175825b8af2"
+      "bytes": 60882,
+      "sha256": "39bdb1e36e1563828cc2fdad008193df561ee94d05ed3faec12441512cf2a6f0"
     },
     "assets/images/lara-menu.webp": {
       "bytes": 39716,
       "sha256": "9ec7fbf6747a487ee242a5b98991cd3c9fdd8dd0c536154118be147e35d42dd3"
     },
     "assets/images/og-lara.webp": {
-      "bytes": 35918,
-      "sha256": "e644ba1cd85a2cec32f7b41e9e03ff8d744447eb2c4c5898041509aeebf6e305"
+      "bytes": 45616,
+      "sha256": "0a3b3f790c53a4ae916a77da844f42a82d34d8be353242fb52945bff6bc45df8"
     },
     "assets/images/poster-alarm.webp": {
       "bytes": 9602,
@@ -53,13 +53,25 @@
       "bytes": 7490,
       "sha256": "fff36b2a03924a4115aab8a7ec8bad5fa1531d135bd93c87436596f5dabdceae"
     },
+    "assets/images/real-alarm.webp": {
+      "bytes": 14896,
+      "sha256": "575a7d6910cec635a349fb63f7f171ce961f452a840d399cb86a1ae70c64424f"
+    },
+    "assets/images/real-news.webp": {
+      "bytes": 35058,
+      "sha256": "edc5464efb5be4291a062c84e6db8b46dd616609b8fb3aec07def14d275e596e"
+    },
+    "assets/images/real-uber-app.webp": {
+      "bytes": 9392,
+      "sha256": "de316da15b16e9f6fe89e18c015f82811724107b8faf5b90c3dc238716054c58"
+    },
     "assets/js/main.js": {
       "bytes": 6018,
       "sha256": "3696800b9801b1d597fe37d99c29c96145a72bbac729aaa24f31eec6c16dde7a"
     },
     "assets/videos/demo-alarm.mp4": {
-      "bytes": 109333,
-      "sha256": "287195abfa92285afaf6819caee4d31d13ff826c6ec46743f2e551b3e60273e9"
+      "bytes": 57574,
+      "sha256": "b2fd4330f23c8d63c656034b8bba6c6c3bfc193d0799d5ed9033b8e44fa4de5b"
     },
     "assets/videos/demo-spotify.mp4": {
       "bytes": 83694,
@@ -74,20 +86,20 @@
       "sha256": "1504078405977a07dc73e030863242227ad60514ceb694b08d6b24e0735129da"
     },
     "index.html": {
-      "bytes": 18333,
-      "sha256": "67c8f31acf88e4dc7e6853e903e286e6531fda3cb042e274b09e11c298d4e178"
+      "bytes": 20885,
+      "sha256": "693fe73701054247c13b6e7520ff6bebe9e073a49354820bd362913c38f9dec2"
     },
     "robots.txt": {
-      "bytes": 72,
-      "sha256": "0329c1b29a4c72f9d69f4e1cb53004dfb28a38cab5f2e72af1c6c834f0d2d2ad"
+      "bytes": 65,
+      "sha256": "9cddd62196dd038550a55430c374b18661c65b2620bf2b00868c82a619d434a2"
     },
     "site.webmanifest": {
       "bytes": 481,
       "sha256": "6e95dff576f38d5fa350f9661561c45baccaa85db20d91a46bdcdb675b7738ed"
     },
     "sitemap.xml": {
-      "bytes": 235,
-      "sha256": "96d80fb6fe67826e22f4c42b1beb4fb229b3e251ebdc11d6d3fcc4cc264db431"
+      "bytes": 228,
+      "sha256": "299adeaac14c86ac1e9dbe362f48991f66397cb5ab6d792b3276c5cb94eca091"
     }
   }
 }
